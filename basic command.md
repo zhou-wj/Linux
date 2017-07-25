@@ -47,3 +47,8 @@
 
 
 
+# 远程文件传输
+
+- [scp命令](http://blog.csdn.net/liangxanhai/article/details/8069781)
+
+
