@@ -51,4 +51,7 @@
 
 - [scp命令](http://blog.csdn.net/liangxanhai/article/details/8069781)
 
+- Linux 下scp传文件时错误 scp: /usr/tools: not a regular file 不能成功传送 解决方案
+> 在使用scp时加上-r 参数 : scp -r root@192.168.16.5:/usr/tools/xxxx
+
 
