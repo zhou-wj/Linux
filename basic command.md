@@ -51,6 +51,9 @@
 
 - [scp命令](http://blog.csdn.net/liangxanhai/article/details/8069781)
 
+- 注意使用GitBash执行scp命令要在本地执行，不要登陆了服务器后才执行。登陆以后在服务器上哪里找的到本地的文件
+> scp -r /f/Desktop/inPKU/陈老板/birdsInLost zhouwenjie@162.105.89.47:/home/zhouwenjie
+
 - Linux 下scp传文件时错误 scp: /usr/tools: not a regular file 不能成功传送 解决方案
 > 在使用scp时加上-r 参数 : scp -r root@192.168.16.5:/usr/tools/xxxx
 
