@@ -58,3 +58,17 @@
 > 在使用scp时加上-r 参数 : scp -r root@192.168.16.5:/usr/tools/xxxx
 
 
+# c++编译使用命令
+
+- 编译链接
+> g++ main.cpp Bird.cpp -o birdsInLost
+> 将main.cpp, Bird.cpp编译为一个名为birdsInLost的可执行文件
+
+- 服务器上运行时碰到的一些问题
+
+> Bird.cpp: In constructor ‘Bird::Bird()’:</br>
+> Bird.cpp:11:11: error: ‘rand’ was not declared in this scope</br>
+>   X = rand() % SIZE;</br>
+
+不知道为什么，将所有rand()的调用改成std::rand()就好了 讲道理我在文件中都用了using namespace std，应该不需要呀
+
