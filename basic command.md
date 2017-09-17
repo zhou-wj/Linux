@@ -72,3 +72,8 @@
 
 不知道为什么，将所有rand()的调用改成std::rand()就好了 讲道理我在文件中都用了using namespace std，应该不需要呀
 
+
+- 执行可执行文件
+
+> ./birdsInLost (直接在命令行中输入文件路径即可)
+
